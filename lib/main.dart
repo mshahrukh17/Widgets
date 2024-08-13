@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:shimmer/shimmer.dart';
 import 'package:widgets/Widgets/Carousal_slider.dart';
+import 'package:widgets/Widgets/Shimmer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const CarousalSliderWidget()
+      home: const ShimmerTest()
     );
   }
 }
