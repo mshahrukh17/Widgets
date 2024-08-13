@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shimmer/shimmer.dart';
-import 'package:widgets/Widgets/Carousal_slider.dart';
-import 'package:widgets/Widgets/Shimmer.dart';
+import 'package:widgets/Tab_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const ShimmerTest()
+      home: TabBarExample()
     );
   }
 }
