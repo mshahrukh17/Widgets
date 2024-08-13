@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:widgets/Widgets/Animated_Container.dart';
 import 'package:widgets/Widgets/SliverExample.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: SliverExample()
+      home: AnimatedContainerExample()
     );
   }
 }
